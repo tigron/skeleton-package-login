@@ -1,0 +1,24 @@
+{
+    "name": "tigron/skeleton-package-user-login",
+    "description": "Tigron Skeleton User login package",
+    "type": "library",
+    "require-dev": {
+		"tigron/skeleton-database": "dev-master",
+		"tigron/skeleton-migrate": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tigron BVBA",
+            "email": "support@tigron.be"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/tigron/skeleton-package-user-login",
+        "issues": "https://github.com/tigron/skeleton-package-user-login/issues"
+    },
+    "autoload": {
+        "psr-4": { "Skeleton\\Package\\": "lib/Skeleton/Package/" }
+    }
+
+}
