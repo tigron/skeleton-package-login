@@ -6,6 +6,9 @@
 		"tigron/skeleton-database": "dev-master",
 		"tigron/skeleton-migrate": "dev-master"
     },
+    "require" : {
+        "bower-asset/bootstrap": "3.3.*",
+    },
     "license": "MIT",
     "authors": [
         {
