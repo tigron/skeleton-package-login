@@ -1,4 +1,4 @@
-# skeleton-pager
+# skeleton-package-user-login
 
 ## Description
 
