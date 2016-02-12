@@ -1,4 +1,4 @@
-# skeleton-package-user-login
+# skeleton-package-login
 
 ## Description
 
@@ -9,7 +9,7 @@ This library enables user login functionality for Skeleton
 
 Installation via composer:
 
-    composer require tigron/skeleton-package-user-login
+    composer require tigron/skeleton-package-login
 
 ## Howto
 
@@ -24,7 +24,7 @@ Create a module in your application that extends from Skeleton\Package\Web\Modul
 	 * @author David Vandemaele <david@tigron.be>
 	 */
 
-	use Skeleton\Package\Web\Module\User\Login;
+	use Skeleton\Package\Login\Web\Module\Login;
 
 	class Web_Module_Login extends Login {
 
@@ -42,15 +42,15 @@ Create a template for your module that injects the generated templates into your
 
 
 	{% block header_js %}
-		{% embed "@skeleton-package-user-login/javascript.twig" %}{% endembed %}
+		{% embed "@skeleton-package-login/javascript.twig" %}{% endembed %}
 	{% endblock header_js %}
 
 	{% block header_css %}
-		{% embed "@skeleton-package-user-login/css.twig" %}{% endembed %}
+		{% embed "@skeleton-package-login/css.twig" %}{% endembed %}
 	{% endblock header_css %}
 
 	{% block content %}
-		{% embed "@skeleton-package-user-login/content.twig" %}{% endembed %}
+		{% embed "@skeleton-package-login/content.twig" %}{% endembed %}
 	{% endblock content %}
 
 

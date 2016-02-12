@@ -7,7 +7,7 @@
  * @author Gerry Demaret <gerry@tigron.be>
  */
 
-namespace Skeleton\Package\Web\Module\User;
+namespace Skeleton\Package\Login\Web\Module;
 
 use \Skeleton\Core\Web\Template;
 use \Skeleton\Core\Web\Module;
@@ -30,7 +30,7 @@ class Login extends Module {
 	 * @access public
 	 * @var string $template
 	 */
-	public $template = '@skeleton-package-user-login\login.twig';
+	public $template = '@skeleton-package-login\login.twig';
 
 	/**
 	 * Display method
