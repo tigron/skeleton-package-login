@@ -1,6 +1,6 @@
 {
-    "name": "tigron/skeleton-package-user-login",
-    "description": "Tigron Skeleton User login package",
+    "name": "tigron/skeleton-package-login",
+    "description": "Tigron Skeleton Login package",
     "type": "library",
     "require-dev": {
 		"tigron/skeleton-database": "dev-master",
@@ -17,8 +17,8 @@
         }
     ],
     "support": {
-        "source": "https://github.com/tigron/skeleton-package-user-login",
-        "issues": "https://github.com/tigron/skeleton-package-user-login/issues"
+        "source": "https://github.com/tigron/skeleton-package-login",
+        "issues": "https://github.com/tigron/skeleton-package-login/issues"
     },
     "autoload": {
         "psr-4": { "Skeleton\\Package\\": "lib/Skeleton/Package/" }
