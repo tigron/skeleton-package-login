@@ -10,7 +10,7 @@
 namespace Skeleton\Package\Login\Web\Module;
 
 use \Skeleton\Core\Web\Template;
-use \Skeleton\Core\Web\Module;
+use \Skeleton\Core\Application\Web\Module;
 use \Skeleton\Core\Web\Session;
 
 class Login extends Module {
